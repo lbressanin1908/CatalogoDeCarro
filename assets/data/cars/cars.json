@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "description": "A Ferrari 488 GTB combina estilo elegante com desempenho poderoso. Com um motor V8 turbo de 3,9 litros, ela acelera de 0 a 100 km/h em apenas 3 segundos.",
+    "year": "2015",
+    "name": "Ferrari 488 GTB",
+    "image": "../assets/data/cars/images/1.png"
+  },
+  {
+    "id": 2,
+    "description": "O Porsche 911 Carrera é um ícone de design e engenharia automotiva. Seu motor flat-six de 3,0 litros proporciona uma experiência de condução inigualável.",
+    "year": "2019",
+    "name": "Porsche 911 Carrera",
+    "image": "../assets/data/cars/images/2.png"
+  },
+  {
+    "id": 3,
+    "description": "O Lamborghini Huracán EVO é uma máquina de alta performance, equipada com um motor V10 de 5,2 litros. Oferece uma combinação perfeita de potência e controle.",
+    "year": "2020",
+    "name": "Lamborghini Huracán EVO",
+    "image": "../assets/data/cars/images/3.png"
+  },
+  {
+    "id": 4,
+    "description": "O McLaren 720S redefine a engenharia superesportiva com seu motor V8 biturbo de 4,0 litros. Suas linhas aerodinâmicas são desenhadas para maximizar a performance.",
+    "year": "2018",
+    "name": "McLaren 720S",
+    "image": "../assets/data/cars/images/2.png"
+  }
+]
