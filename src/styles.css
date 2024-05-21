@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+justify-content: space-between;
+  min-width: 100swh;
+  background-image: radial-gradient(#a8cca6, #caa6cc);
+  padding: 20px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0px 0px; */
+}
+
+header .logo img {
+  object-fit: scale-down;
+  max-height: 200px;
+  filter: drop-shadow(0 0 rgb(5, 7, 20));
+  max-width: 200px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: clamp(1rem, 0.75rem + 0.8vw, 1rem);
+  color: #fff;
+  font-weight: 500;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  /* min-height: 100%; */
+
+  justify-content: space-between;
+  /* flex: 1; */
+}
+.content .carosel {
+  display: flex;
+  /* width: 80%; */
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 100%;
+
+  align-self: center;
+}
+.content .carosel ul {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.carosel ul li {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.carosel ul .car_img {
+  /* max-width: 700px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 90%;
+min-height: 100%;
+width: 700px;
+min-width: 100%;
+
+  /* transform: rotate(-5deg); */
+}
+.carosel ul .car_img img {
+  max-width: 100%;
+  max-height: 90%;
+  min-width: 100%;
+  height: 220px;
+}
+
+.carosel .arrow_left button,
+.carosel .arrow_right button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+}
+.carosel .arrow_left {
+  transform: rotate(180deg);
+}
+.content .indicators {
+  align-self: flex-start;
+  margin-top: 40px;
+  /* justify-self: flex-end; */
+}
+.content .indicators .number {
+  font-family: "League Gothic", sans-serif;
+  font-size: 5em;
+}
+.content .indicators ul {
+  list-style: none;
+  display:flex;
+  gap:4px;
+}
+.content .indicators ul li {
+  width: 50px;
+  height: 5px;
+  background-color: #beff1b;
+  border-radius: 5px;
+}
+.content .indicators ul .active{
+  background-color: #ffffff;
+}
