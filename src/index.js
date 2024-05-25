@@ -96,3 +96,8 @@ carousel.addEventListener("wheel", (e) => {
 
 }, { passive: false })
 document.addEventListener("contextmenu", e => e.preventDefault())
+
+setInterval(() => {
+  nextButton.click()
+
+}, 2500)
